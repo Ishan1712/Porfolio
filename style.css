@@ -21,7 +21,7 @@ header {
   margin: auto;
 }
 
-/* ////........Navbar.......//// */
+/*-------Navbar------*/
 
 .navbar {
   position: fixed;
@@ -62,7 +62,7 @@ header {
   font-size: 2rem;
 }
 
-/* ////........Home Content........//// */
+/*-------Home-Content------*/
 
 .home-content .name {
   position: absolute;
@@ -102,7 +102,7 @@ header {
   padding: 1rem;
 }
 
-/* ////........About Me........//// */
+/*-------About------*/
 
 .about-me {
   background-color: #7045a0;
@@ -153,7 +153,7 @@ header {
   flex-basis: 45%;
 }
 
-/* ///.....Skill Bar....../// */
+/*-------Skill-Bar------*/
 
 .skills-bar {
   padding: 25px 30px;
@@ -206,7 +206,7 @@ header {
 }
 
 .progress-line .css {
-  width: 70%;
+  width: 80%;
 }
 
 .progress-line .cpp {
@@ -218,7 +218,13 @@ header {
 }
 
 .progress-line .opps {
-  width: 50%;
+  width: 80%;
+}
+.progress-line .MongoDb {
+  width: 60%;
+}
+.progress-line .NodeJs {
+  width: 40%;
 }
 
 .bar .progress-line span::before {
@@ -252,7 +258,7 @@ header {
 }
 
 .progress-line .css::after {
-  content: "70%";
+  content: "80%";
 }
 
 .progress-line .cpp::after {
@@ -264,7 +270,13 @@ header {
 }
 
 .progress-line .opps::after {
-  content: "50%";
+  content: "80%";
+}
+.progress-line .MongoDb::after {
+  content: "60%";
+}
+.progress-line .NodeJs::after {
+  content: "40%";
 }
 
 .navbar.solid {
@@ -309,7 +321,7 @@ header {
 
 }
 /*  */
-/* ////.....Portfolio......///// */
+/*-------Portfolio------*/
 
 .portfolio {
   background: black;
@@ -397,7 +409,7 @@ header {
   color: #f0f0e6;
 }
 
-/* ////.....proj2.....//// */
+/*----Project-2-----*/
 
 .proj-2 {
   display: flex;
@@ -538,7 +550,7 @@ header {
   color: #f0f0e6;
 }
 
-/* ////......Media query......//// */
+/*----Media Query-----*/
 
 @media (max-width: 500px) {
   html {
